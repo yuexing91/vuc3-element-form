@@ -1,6 +1,6 @@
 # vuc3-ant-form
 
-一个基于 [`vuc3`](https://github.com/yuexing91/vuc3) `ant-design-vue` 的可视化表单设计器，3分钟即可将自己的组件加入到 `vuc3-ant-form` 之中。
+一个基于 [`vuc3`](https://github.com/yuexing91/vuc3) `element-plus` 的可视化表单设计器，3分钟即可将自己的组件加入到 `vuc3-element-form` 之中。
 
 [Demo](https://yuexing91.gitee.io/yuexing91.github.io/vuc3-ant-form/)
 
@@ -13,7 +13,7 @@
 ### 安装
 
 ```
-npm install vuc3-ant-form --save
+npm install vuc3-element-form --save
 ```
 
 ### 示例
