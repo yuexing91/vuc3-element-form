@@ -1,0 +1,22 @@
+html,
+body,#app {
+  height: 100%;
+}
+
+.vuc-app-wrapper {
+  &>.el-form {
+    &[data-ast-id]:empty {
+      &:before {
+        content: ' 请拖拽左侧组件到此 ';
+        margin: 12px;
+        color: #a1a1a1;
+      }
+    }
+  }
+
+  .el-tab-pane,.el-row, .el-col,.el-form {
+    &[data-ast-id]:empty {
+      min-height: 40px;
+    }
+  }
+}
